@@ -23,7 +23,7 @@ export const trailingArrow = style({
       content: '↗',
       fontFamily: 'system-ui',
       opacity: ' 0.8',
-      fontSize: '0.9em',
+      fontSize: '0.5em',
       position: 'absolute',
       right: '-1em',
       top: '-0.1em',
@@ -89,8 +89,8 @@ export const mintCounterInput = style([
     color: 'primary',
     backgroundColor: 'transparent',
     borderColor: 'transparent',
-    borderRadius: 'small',
-    borderWidth: 'normal',
+    borderRadius: 'tiny',
+    borderWidth: 'thin',
     borderStyle: 'solid',
     textAlign: 'center',
     height: 'x11',
@@ -98,10 +98,10 @@ export const mintCounterInput = style([
 ])
 
 export const priceDateHeading = style({
-  fontWeight: 500,
-  fontSize: '30px',
-  lineHeight: '40px',
-  color: vars.color.primary
+  fontWeight: 400,
+  fontSize: '15px',
+  lineHeight: '24px',
+  color: '#ffffff'
 })
 
 export const maxWidth = style({
@@ -116,19 +116,19 @@ export const maxWidth = style({
 })
 
 export const border = style({
-  border: `1px solid ${vars.color.border}`,
+  border: `.25px solid ${vars.color.border}`,
   borderRadius: 0,
 })
 
 export const header = style({
-  borderBottom: `1px solid ${vars.color.border}`,
+  borderBottom: `.25px solid ${vars.color.border}`,
 })
 
 export const heroImage = style({
   objectFit: 'contain',
   maxHeight: '45vh',
   maxWidth: '100%',
-  borderRadius: '12px',
+  borderRadius: '0px',
   overflow: 'hidden',
   margin: 'auto',
   '@media': {

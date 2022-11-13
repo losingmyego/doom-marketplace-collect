@@ -7,7 +7,7 @@ body {
   padding: 0;
   margin: 0;
   letter-spacing: 0.025em;
-  line-height: 1.5;
+  line-height: 1.25;
 }
 
 a {
@@ -41,15 +41,15 @@ a:hover {
 
 .zord-mint-status__number-input {
   background-color: var(--_1yv16yc5i); /* color: accent */
-  border-radius: var(--_1yv16yc7l); /* borderRadius: regular */
+  border-radius: var(--_1yv16yc7l); /* borderRadius: none */
   padding: 5px;
 }
 .zord-mint-status__number-input input,
 .zord-mint-status__number-input button,
 .zord-mint-status__number-input button > * {
   border: 0;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 15px;
+  line-height: 24px;
   font-weight: 500;
   color: var(--_1yv16yc5m); /* color: onAccent */
 }
